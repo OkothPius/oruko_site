@@ -1,3 +1,43 @@
+
+/* Global Styles
+===============================*/
+body {
+    color: #343434;
+}
 img {
     width: 300px;
+}
+
+/* Profile 
+===============================*/
+header {
+    background: darkblue;
+    color: #f7f7f7;
+}
+
+
+/* Projects 
+===============================*/
+.projects {
+    background: #f7f7f7;
+}
+
+
+
+/* Work Experience 
+===============================*/
+.work {
+    background: #a1c6d7;
+}
+
+
+/* Education 
+===============================*/
+
+
+/* Contact Info
+===============================*/
+footer {
+    background: #343434;
+    color: #f7f7f7;
 }
