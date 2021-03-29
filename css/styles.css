@@ -1,3 +1,12 @@
+/*
+COLOUR PALETTE
+#F7FFF7 = atleadt white
+#343434 = dark grey - almost black
+#2F3061 - dark blue
+#FFE660 - yellow
+#A1C607 - blue light
+*/
+
 
 /* Global Styles
 ===============================*/
@@ -6,6 +15,12 @@ body {
 }
 img {
     width: 300px;
+}
+a {
+    color: yellow;
+}
+a:hover {
+    text-decoration: none;
 }
 
 /* Profile 
@@ -21,7 +36,19 @@ header {
 .projects {
     background: #f7f7f7;
 }
-
+.projects a {
+    color: #2F3061;
+}
+.projects .btn {
+    color: #f7f7f7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
 
 
 /* Work Experience 
